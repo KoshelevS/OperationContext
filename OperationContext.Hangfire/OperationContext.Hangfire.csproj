@@ -6,6 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <IsPackabel>true</IsPackabel>
+    <PackageId>OperationContext.Hangfire</PackageId>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Hangfire.Core" Version="1.8.14" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />

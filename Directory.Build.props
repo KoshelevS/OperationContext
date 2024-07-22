@@ -10,8 +10,6 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <IsPackabel>true</IsPackabel>
-    <PackageId>OperationContext</PackageId>
     <PackageProjectUrl>https://github.com/KoshelevS/UriQueryHelper</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
