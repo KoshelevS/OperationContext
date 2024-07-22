@@ -1,0 +1,26 @@
+<Project>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Authors>Sergey Koshelev</Authors>
+    <Copyright>Copyright (c) Sergey Koshelev, 2024</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsPackabel>true</IsPackabel>
+    <PackageId>OperationContext</PackageId>
+    <PackageProjectUrl>https://github.com/KoshelevS/UriQueryHelper</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>context;operation;accessor</PackageTags>
+
+    <RepositoryUrl>https://github.com/KoshelevS/UriQueryHelper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="./README.md" Pack="true" PackagePath=""/>
+    <None Include="./LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
