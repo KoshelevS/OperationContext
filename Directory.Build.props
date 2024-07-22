@@ -4,6 +4,9 @@
     <Version>1.0.0</Version>
     <Authors>Sergey Koshelev</Authors>
     <Copyright>Copyright (c) Sergey Koshelev, 2024</Copyright>
+    <Description>
+      This package allows arbitrary data to be stored in the context of async operations.
+    </Description>
   </PropertyGroup>
 
   <PropertyGroup>
