@@ -11,7 +11,7 @@
     <PackageId>OperationContext</PackageId>
     <PackageProjectUrl>https://github.com/KoshelevS/UriQueryHelper</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>context;operation;accessor</PackageTags>
 
     <RepositoryUrl>https://github.com/KoshelevS/UriQueryHelper</RepositoryUrl>
@@ -19,8 +19,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="./README.md" Pack="true" PackagePath=""/>
-    <None Include="./LICENSE" Pack="true" PackagePath=""/>
+    <None Include="../README.md" Pack="true" PackagePath=""/>
+    <None Include="../LICENSE.txt" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 </Project>
