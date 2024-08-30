@@ -9,6 +9,15 @@ public static class GlobalConfigurationExtensions
 {
     public static IGlobalConfiguration UseOperationContext(
         this IGlobalConfiguration config,
+        IServiceProvider serviceProvider
+    )
+    {
+        var cfg = new OperationContextConfig();
+        return config.UseOperationContext(serviceProvider, cfg);
+    }
+
+    public static IGlobalConfiguration UseOperationContext(
+        this IGlobalConfiguration config,
         IServiceProvider serviceProvider,
         Action<OperationContextConfig>? action = null
     )

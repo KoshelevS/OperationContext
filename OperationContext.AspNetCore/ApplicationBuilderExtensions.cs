@@ -4,6 +4,12 @@ namespace OperationContext.AspNetCore;
 
 public static class ApplicationBuilderExtensions
 {
+    public static IApplicationBuilder UseOperationContext(this IApplicationBuilder app)
+    {
+        var cfg = new OperationContextConfig();
+        return app.UseOperationContext(cfg);
+    }
+
     public static IApplicationBuilder UseOperationContext(
         this IApplicationBuilder app,
         Action<OperationContextConfig>? action = null
