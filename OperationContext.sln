@@ -5,14 +5,16 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationContext.Core", "OperationContext.Core\OperationContext.Core.csproj", "{34572D15-2DCD-4D1B-B299-5098C5510DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationContext.AspNetCore", "OperationContext.AspNetCore\OperationContext.AspNetCore.csproj", "{9C0317ED-A5E7-428C-826A-23B33F6AE648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationContext.AspNetCore", "OperationContext.AspNetCore\OperationContext.AspNetCore.csproj", "{9C0317ED-A5E7-428C-826A-23B33F6AE648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationContext.Hangfire", "OperationContext.Hangfire\OperationContext.Hangfire.csproj", "{08C0EA58-8FBA-4D41-BBE3-F2D679F0F093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationContext.Hangfire", "OperationContext.Hangfire\OperationContext.Hangfire.csproj", "{08C0EA58-8FBA-4D41-BBE3-F2D679F0F093}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BE56702-B868-4191-9067-C04FA423652B}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationContext.Core.Tests", "OperationContext.Core.Tests\OperationContext.Core.Tests.csproj", "{8DE4929F-72DB-467A-A67D-A139209733BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{08C0EA58-8FBA-4D41-BBE3-F2D679F0F093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C0EA58-8FBA-4D41-BBE3-F2D679F0F093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08C0EA58-8FBA-4D41-BBE3-F2D679F0F093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE4929F-72DB-467A-A67D-A139209733BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE4929F-72DB-467A-A67D-A139209733BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE4929F-72DB-467A-A67D-A139209733BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE4929F-72DB-467A-A67D-A139209733BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
