@@ -7,7 +7,7 @@ This package allows arbitrary data to be stored in the context of async operatio
 ### ASP.NET Core
 
 Install NuGet package
-```cmd
+```ps
 dotnet add package OperationContext.AspNetCore
 ```
 
@@ -40,7 +40,7 @@ app.UseCorrelationId();
 ### Hangfire
 
 Install NuGet package
-```cmd
+```ps
 dotnet add package OperationContext.Hangfire
 ```
 
@@ -67,7 +67,7 @@ services.AddHangfire((provider, cfg) =>
 ```
 
 Or
-```
+```csharp
 services.AddHangfire((provider, cfg) =>
     cfg. ...
         .UseOperationContext(provider)
