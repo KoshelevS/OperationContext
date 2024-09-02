@@ -10,12 +10,12 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageProjectUrl>https://github.com/KoshelevS/UriQueryHelper</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/KoshelevS/OperationContext</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>context;operation;accessor</PackageTags>
 
-    <RepositoryUrl>https://github.com/KoshelevS/UriQueryHelper</RepositoryUrl>
+    <RepositoryUrl>https://github.com/KoshelevS/OperationContext</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
